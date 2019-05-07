@@ -42,10 +42,13 @@ Examples include:
 Possuem 4 tipos de tanques que crescem progressivamente de dificuldades, o tanque mais poderoso precisa de 4 tiros para ser destruido, enquanto os outros precisam de 3, 2 ou 1 tiros.
 There are four progressively harder types of enemy tanks, with the toughest one requiring four shots to kill (while other tanks only require one shot).
 
-tanque nível 1:
-tanque nível 2:
-tanque nível 3:
-tanque nível 4:
+tanque nível 1: 1 tiro para destruir   / 1 shoot to kill
+
+tanque nível 2: 2 tiros para destruir  / 2 shoots to kill
+
+tanque nível 3: 3 tiros para destruir  / 3 shoots to kill
+
+tanque nível 4: 4 tiros para destruir  / 4 shoots to kill
 
 
 # Energizadores # Power Ups
