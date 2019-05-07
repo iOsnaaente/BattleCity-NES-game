@@ -1,7 +1,7 @@
 import pygame
 import random
 
-screen_Dimension=[10*100,10*70]
+screen_Dimension=[32*13,32*13]
 
 pygame.init()
 
