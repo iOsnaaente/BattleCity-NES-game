@@ -1,2 +1,4 @@
-from images import *
+#! usr/bin/dev python
+
+from imagens import *
 
