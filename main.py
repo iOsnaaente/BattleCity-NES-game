@@ -1,8 +1,8 @@
 #! usr/bin/dev python
 
-from stage_interpreter import Stages	#Le as fases
-from tanks_ import PlayerTank 			#Responsável pelos tanques do player
-from imagens import *					#imagens do jogo
+from  stages import Stages	#Le as fases
+from code import  tanks			#Responsável pelos tanques do player
+from images import imagens					#imagens do jogo
 
 import pygame
 import random
@@ -21,10 +21,10 @@ clock = pygame.time.Clock()
 
 
 
-Fase_1 = Stages(screen)
+Fase_1 = Stages.Stages(screen)
 Fase_1.readStage(1)
 
-Tank = PlayerTank(blueTank, [64,64], screen)
+Tank = tanks.PlayerTank(imagens.blueTank, [64,64], screen)
 
 while True:
 

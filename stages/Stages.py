@@ -1,8 +1,8 @@
 #! usr/bin/dev python	
 
 #IMAGENS DOS TERRENOS
-from imagens import *
-
+from images import imagens
+import os 
 
 class Stages:
 
@@ -39,7 +39,7 @@ class Stages:
 
 	#VAI LER O TXT COM OS IPS DOS TERRENOS
 	def readStage(self, index):
-		txt = open("fase_"+str(index)+".txt", 'r')				#le o txt
+		txt = open(os.path.join("stages","stage_"+str(index)+".txt"), 'r')				#le o txt
 		x,y = 0,0												#para definir as posicoes		
 		for lines in txt:                                 	    #le as linhas do txt
 			for num in lines.replace(" ", ""):					#le os elementos 
@@ -57,19 +57,19 @@ class Stages:
 	def plotStage(self):
 		for i in range(len(self.arrayWalls)):
 			if self.arrayWalls[i][0] is 0:
-				self.screen.blit(bricks, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
+				self.screen.blit(imagens.bricks, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
 			
 			elif self.arrayWalls[i][0] is 2:
-				self.screen.blit(iron, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
+				self.screen.blit(imagens.iron, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
 			
 			elif self.arrayWalls[i][0] is 3:
 				self.screen.blit(bushes, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
 			
 			elif self.arrayWalls[i][0] is 4:
-				self.screen.blit(ice, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
+				self.screen.blit(imagens.ice, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
 			
 			elif self.arrayWalls[i][0] is 5:
-				self.screen.blit(pool, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
+				self.screen.blit(imagens.pool, [self.arrayWalls[i][1][0], self.arrayWalls[i][1][1]])
 			
 
 	#CRIAR FUTURAMENTE NA OPCAO DO JOGO CRIAR CENARIO

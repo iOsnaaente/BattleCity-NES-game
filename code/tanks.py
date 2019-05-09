@@ -2,6 +2,7 @@
 
 import pygame
 
+
 class PlayerTank:
 
 	posicao = [0,0]
