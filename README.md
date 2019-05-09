@@ -3,7 +3,7 @@ Recriação do jogo Battle City que foi criado e lançado oficialmente para a pl
 Battle Citty  um jogo de tiro onde o jogador controla um tanque, e deve destruir os tanques inimigos em cada nível, que aparecem no topo da tela. 
 Os tanques inimigos tentam destruir a base do jogador (representada no mapa como um pássaro, águia ou fênix).
 
-# Objetivo do jogo # Game Goals
+# Objetivo do jogo # Game Goal
 O jogador controla um tanque que deve destruir os tanques inimigos em cada nível, que aparecem no topo da tela. 
 The player, controlling a Tank, must destroy enemy tanks in each level, which enter the playfield from the top of the screen.
 
