@@ -1,6 +1,5 @@
 #! usr/bin/dev python	
 
-<<<<<<< HEAD
 #IMAGENS DOS TERRENOS
 from imagens import *
 
@@ -76,24 +75,3 @@ class Stages:
 	#CRIAR FUTURAMENTE NA OPCAO DO JOGO CRIAR CENARIO
 	def createStage(self, array ):
 		pass
-=======
-arrayWalls = []
-
-def readStages():
-	pass
-
-
-def plotWals():
-	pass
-
-
-
-
-
-
-
-
-#####NÃO FOCAR NISSO AGORA######
-def createStage():
-	pass
->>>>>>> 35e89f9b98e05f111441d240cf7589fc456fce76
