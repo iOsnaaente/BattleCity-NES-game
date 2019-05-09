@@ -91,3 +91,6 @@ In two player mode, at most six enemy tanks are spawned at the same time, compar
 
 ***Foi um dos primeiros jogos da NES que permitiu que jogadores acessaseem o modo de edição de mapas para a acriação de mapas personalizados. Entretanto, esses mapas não podiam ser salvos.***
 ***It was also one of the first NES games to allow players access to an edit mode where they could create custom levels (called "Construction"), though these custom levels cannot be saved unlike.***
+
+Guia IA / Guide AI
+https://strategywiki.org/wiki/Battle_City/Walkthrough
